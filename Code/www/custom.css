@@ -1,0 +1,91 @@
+.body {
+	height: 100%;
+}
+
+.main-header {
+  	font-family: "Georgia", Times, "Times New Roman", serif;
+  	position: fixed;
+  	font-size: 20px;
+  	height: 60px;
+  	width:100%;
+}
+
+.main-header .logo {
+  	font-family: "Georgia", Times, "Times New Roman", serif;
+  	font-weight: bold;
+  	font-size: 30px;
+  	height: 60px;
+  	padding-top: 6px;
+}
+
+.navbar {
+	height: 60px;
+}
+
+.navbar-brand {
+	height: 60px;
+}
+
+.navbar-nav li a:hover {
+	color: #3d66a9 !important;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0px;
+}
+
+.navbar-nav > .active > a {
+	vertical-align: middle;
+	height: 60px;
+	color: #3d66a9 !important; !important;
+	background-color: #ffffff !important;
+	background-image: none !important;
+}
+
+.main-sidebar {
+	padding-top: 60px;
+}
+
+.sidebar {
+	color: #FFFFFF;
+  	position: fixed;
+  	width: 230px;
+  	white-space: nowrap;
+  	overflow: visible;
+  	background-color: #222d32;
+  	height: 100%;
+}
+
+.left-side {
+	padding-top: 60px;
+}
+
+.sidebar-toggle {
+	height: 60px;
+	vertical-align: middle;
+}
+
+.content {
+  	padding-top: 80px;
+  	height: 100%;
+}
+
+
+.content-wrapper, .right-side {
+	background-color: #FFFFFF;
+	height: 100%;
+}
+
+
+.left-side {
+  	background-color: #222d32;
+}
+
+.footer {
+	position: fixed;
+	vertical-align: bottom;
+	background-color: #FFFFFF;
+	text-align: center;
+}
